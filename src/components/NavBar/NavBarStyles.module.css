@@ -65,12 +65,13 @@ header {
     top: 18px;
     right: 40px;
     background-color:#ffffff;
-    color:#BA181B;
+    color:black;
     border-radius: 50%;
     border: 2px solid #BA181B;
     width: 20px;
     height: 20px;
-    font-size: 10px;
+    font-size: 8px;
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
