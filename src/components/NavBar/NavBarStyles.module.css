@@ -80,7 +80,7 @@ header {
 
 .options {
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
     font-size: 18px;
     background-color: #BA181B;
@@ -93,6 +93,7 @@ header {
 
 .options nav ul li {
     list-style: none;
+    margin-top: 15px;
 }
 
 .options nav ul li a {
