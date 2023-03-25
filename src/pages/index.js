@@ -1,0 +1,7 @@
+export * from "./Home"
+export * from "./Guitarras"
+export * from "./Bajos"
+export * from "./Audio"
+export * from "./Amplificadores"
+export * from "./Pedales"
+export * from "./Percusion"
