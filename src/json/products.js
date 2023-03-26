@@ -4,7 +4,7 @@ export const ProductsData = [
       "nombre": "Guitarra Les Paul",
       "precio": 10.99,
       "descripcion": "Descripción del producto 1",
-      "imagen": "https://unsplash.com/es/fotos/YStboKiFPVw"
+      "imagen": "../images/les-paul.png"
     },
     {
       "id": 2,
