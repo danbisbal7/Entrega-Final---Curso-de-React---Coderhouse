@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './ItemListContainerStyles.module.css';
+import styles from './ItemListContainer.css';
 
 export const ItemListContainer = ({ props }) => {
     return (
