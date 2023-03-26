@@ -21,19 +21,24 @@ export const Cards = ({ producto }) => {
     );
 }
 
-/*function ItemList({ items }) {
+/*export const Cards = ({ producto }) => {
   return (
-    <div className="card-deck">
-      {items.map((item) => (
-        <Card key={item.id}>
-          <Card.Img variant="top" src={item.imageUrl} />
-          <Card.Body>
-            <Card.Title>{item.title}</Card.Title>
-            <Card.Text>{item.description}</Card.Text>
-            <Button variant="primary" href={`/item/${item.id}`}>Ver Detalles</Button>
-          </Card.Body>
-        </Card>
-      ))}
-    </div>
+      <Link to={`/products/${producto.id}`} className="card-link">
+      <div className="card">
+        <img
+          src={producto.imagen}
+          alt={producto.nombre}
+          className="card-img-top"
+        />
+        <div className="card-body">
+          <h5 className="card-title">{producto.nombre}</h5>
+          <p className="card-text">{producto.descripcion}</p>
+        </div>
+        <div className="card-footer">
+          <button className="btn btn-primary">Agregar al carrito</button>
+          <span className="precio">${producto.precio}</span>
+        </div>
+      </div>
+    </Link>
   );
 }*/
