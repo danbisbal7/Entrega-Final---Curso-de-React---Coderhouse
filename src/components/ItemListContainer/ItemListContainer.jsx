@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import styles from './ItemListContainer.css';
 
 export const ItemListContainer = ({ props }) => {
@@ -7,10 +7,11 @@ export const ItemListContainer = ({ props }) => {
         <h2>{props}</h2>
       </div>
     );
-  };
+  };*/
 
-/*import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
+import styles from "./ItemListContainer.css";
 
 
 export function ItemListContainer({ category }) {
@@ -26,14 +27,14 @@ export function ItemListContainer({ category }) {
   }, [category]);
 
   return (
-    <div>
+    <div className={styles.container}>
       <h2>{category}</h2>
-      <ItemList items={items} />
+      <Card items={items} />
     </div>
   );
 }
 
-function ItemList({ items }) {
+/*function ItemList({ items }) {
   return (
     <div className="card-deck">
       {items.map((item) => (
