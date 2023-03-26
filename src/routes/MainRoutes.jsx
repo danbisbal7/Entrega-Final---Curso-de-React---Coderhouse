@@ -1,9 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { NavBarComponent } from "../components"
 import { Home, Guitarras, Bajos, Audio, Amplificadores, Pedales, Percusion } from "../pages"
 
 export const MainRoutes = () => {
     return (
         <Router>
+            <NavBarComponent />
             <Routes>
                 <Route exact path="/"  element={<Home />} />
                 <Route exact path="/Guitarras"  element={<Guitarras />} />

@@ -7,9 +7,9 @@ import { MainRoutes } from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
 
-// Codigo de la clase 
+/*// Codigo de la clase 
 
-/*async function getUsers() {
+async function getUsers() {
   return await fetch(`https://reqres.in/api/users?page=2`)
   .then(res => res.json())
   .then(data => console.log(data.data))
@@ -21,22 +21,17 @@ const userData = {
 }
 
 async function postUser() {
-  await fetch(`https://reqres.in/api/users`, {
-    method: "POST",
+  await axios.post(`https://reqres.in/api/users`, userData, {
     headers: {
       "Content-Type": "application/json"
-    },
-    body: JSON.stringify(userData)
-  })
-  .then(res => res.json())
-  .then(data => console.log(data))
-}*/
-// termina aca
+    }
+  }).then(res => console.log(res))
+}
+// termina aca*/
 
 function App() {
   return (
     <div>
-      <NavBarComponent />
       <MainRoutes />
       <ItemListContainer props="Bienvenidos a House of The Guitar" />
     </div>

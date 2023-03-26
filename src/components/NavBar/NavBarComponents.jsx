@@ -16,13 +16,13 @@ export const NavBarComponent = () => {
             <div className={styles.options}>
                 <nav>
                     <ul>
-                        <NavItems label="Home" src="/" />
-                        <NavItems label="Guitarras" src="/Guitarras" />
-                        <NavItems label="Bajos" src="/Bajos" />
-                        <NavItems label="Percusion" src="/Percusion" />
-                        <NavItems label="Amplificadores" src="/Amplificadores" />
-                        <NavItems label="Pedales" src="/Pedales" />
-                        <NavItems label="Audio" src="/Audio" />
+                        <NavItems label="Home" to="/" />
+                        <NavItems label="Guitarras" to="/Guitarras" />
+                        <NavItems label="Bajos" to="/Bajos" />
+                        <NavItems label="Percusion" to="/Percusion" />
+                        <NavItems label="Amplificadores" to="/Amplificadores" />
+                        <NavItems label="Pedales" to="/Pedales" />
+                        <NavItems label="Audio" to="/Audio" />
                     </ul>
                 </nav>
             </div>
