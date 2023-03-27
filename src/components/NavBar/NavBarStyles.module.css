@@ -14,6 +14,15 @@ header {
     font-family: 'Zen Dots', cursive;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+header h1 {
+    color: #BA181B;
+  }
+
+
 .title {
     display: grid;
     grid-template-columns: 60% 30% 10%;

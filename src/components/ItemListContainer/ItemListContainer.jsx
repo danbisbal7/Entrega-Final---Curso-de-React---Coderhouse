@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import { ProductsData } from '../../json';
 import { ItemList } from './ItemList';
-
 import styles from "./ItemListContainer.css";
 
 export function ItemListContainer({ category }) {
@@ -21,5 +20,3 @@ export function ItemListContainer({ category }) {
 }
 
 
-    /*const filteredItems = ProductsData.filter((producto) => producto.categoria === category);
-    setItems(filteredItems);*/ 

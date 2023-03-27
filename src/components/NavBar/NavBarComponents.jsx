@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from "./NavBarStyles.module.css";
 import {FaGuitar} from "react-icons/fa";
 import {GiGuitarHead} from "react-icons/gi";
@@ -9,7 +10,9 @@ export const NavBarComponent = () => {
     return (
         <header>
             <div className={styles.title}>
+            <Link to="/">
                 <h1>{<FaGuitar/>} House of The Guitar {<GiGuitarHead/>}</h1>
+            </Link>
                 <SearchBar/>
                 <CartIcon/>
             </div>
