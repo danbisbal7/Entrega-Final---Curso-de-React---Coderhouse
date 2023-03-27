@@ -1,7 +1,13 @@
 import React from "react";
+import { ProductsData } from "../json";
+import { ItemListContainer } from "../components";
 
 export const Pedales = () => {
-    return (
-        <div>Pedales</div>
-    )
+  const pedales = ProductsData.filter((item) => item.categoria === "Pedales");
+  return (
+      <div>
+        <ItemListContainer category="Pedales" />
+      </div>
+      
+  )
 }

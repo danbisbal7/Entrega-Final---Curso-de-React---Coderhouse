@@ -1,9 +1,13 @@
 import React from "react";
 import { ProductsData } from "../json";
-import { Cards } from "../components";
+import { ItemListContainer } from "../components";
 
 export const Guitarras = () => {
+  const guitarras = ProductsData.filter((item) => item.categoria === "Guitarras");
   return (
-      <div>Guitarras</div>
+      <div>
+        <ItemListContainer category="Guitarras" />
+      </div>
+      
   )
 }

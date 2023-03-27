@@ -1,7 +1,13 @@
 import React from "react";
+import { ProductsData } from "../json";
+import { ItemListContainer } from "../components";
 
 export const Audio = () => {
-    return (
-        <div>Audio</div>
-    )
+  const audio = ProductsData.filter((item) => item.categoria === "Audio");
+  return (
+      <div>
+        <ItemListContainer category="Audio" />
+      </div>
+      
+  )
 }
