@@ -7,7 +7,7 @@ export const MainRoutes = () => {
         <Router>
             <NavBarComponent />
             <Routes>
-                <Route exact path="/"  element={<Home />} />
+                <Route exact path="/" element={<Home />} /> 
                 <Route exact path="/Guitarras"  element={<Guitarras />} />
                 <Route exact path="/Bajos"  element={<Bajos />} />
                 <Route exact path="/Audio"  element={<Audio />} />
