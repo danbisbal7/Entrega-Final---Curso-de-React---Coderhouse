@@ -8,7 +8,7 @@ export default function Item({producto}) {
         <Card.Body>
           <Card.Title>{producto.nombre}</Card.Title>
           <Card.Text>{producto.descripcion}</Card.Text>
-          <Button variant="primary" href={`/item/${producto.id}`}>Ver Detalles</Button>
+          <Button variant="danger" href={`/item/${producto.id}`}>Ver Detalles</Button>
         </Card.Body>
       </Card>
     );

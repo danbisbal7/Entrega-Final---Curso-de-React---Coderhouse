@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ProductsData } from '../../json';
 import { ItemList } from './ItemList';
-import styles from "./ItemListContainer.css";
+import styles from "./ItemListContainer.css"
 
 export function ItemListContainer({ category }) {
   const [items, setItems] = useState([]);
@@ -13,8 +13,12 @@ export function ItemListContainer({ category }) {
 
   return (
     <div className={styles.ItemList}>
-      <h2>{category}</h2>
-      <ItemList items={items} />
+      <div>
+        <h2>{category}</h2>
+      </div>
+      <div className='prueba'>
+        <ItemList items={items} />
+    </div>
     </div>
   );
 }
