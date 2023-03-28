@@ -5,22 +5,24 @@ import styles from "./ItemListContainer.css"
 
 export function ItemListContainer({ category }) {
   const [items, setItems] = useState([]);
-  
+
   useEffect(() => {
-    const filteredProducts = ProductsData.filter((product) => product.categoria === category);
-    setItems(filteredProducts);
+    if (category === '') {
+      setItems(ProductsData);
+    } else {
+      const filteredProducts = ProductsData.filter((product) => product.categoria === category);
+      setItems(filteredProducts);
+    }
   }, [category]);
 
   return (
     <div className={styles.ItemList}>
       <div>
-        <h2>{category}</h2>
+        <h2>{category !== '' ? category : 'Todos nuestros productos'}</h2>
       </div>
-      <div className='prueba'>
+      <div>
         <ItemList items={items} />
-    </div>
+      </div>
     </div>
   );
 }
-
-
