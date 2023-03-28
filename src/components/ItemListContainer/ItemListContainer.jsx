@@ -18,7 +18,7 @@ export function ItemListContainer({ category }) {
   return (
     <div className={styles.ItemList}>
       <div>
-        <h2>{category !== '' ? category : 'Todos nuestros productos'}</h2>
+        <h3>{category !== '' ? category : 'Todos nuestros productos:'}</h3>
       </div>
       <div>
         <ItemList items={items} />
