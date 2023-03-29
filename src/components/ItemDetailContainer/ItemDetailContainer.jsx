@@ -8,7 +8,7 @@ export const ItemDetailContainer = () => {
   const [productoEncontrado, setProductoEncontrado] = useState(null);
 
   useEffect(() => {
-    const productoEncontrado = ProductsData.find((prod) => prod.id === id);
+    const productoEncontrado = ProductsData.find((prod) => prod.id == id);
     setProductoEncontrado(productoEncontrado);
   }, [id]);
 
