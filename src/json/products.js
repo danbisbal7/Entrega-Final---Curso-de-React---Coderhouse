@@ -143,4 +143,12 @@ export const ProductsData = [
       "descripcion": "Descripción del producto 18",
       "imagen": "../images/consola-pyle.jpg"
     },
+    {
+      "id": 19,
+      "categoria": "Audio",
+      "nombre": "Prueba",
+      "precio": 5.99,
+      "descripcion": "Producto de prueba",
+      "imagen": "../images/consola-pyle.jpg"
+    },
   ]
