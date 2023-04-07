@@ -116,3 +116,7 @@ header h1 {
     font-weight: bold;
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}

@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { ThemeContext } from '../../context';
 import { Link } from 'react-router-dom';
 import styles from "./NavBarStyles.module.css";
@@ -14,9 +14,10 @@ export const NavBarComponent = () => {
     const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   
     const toggleDarkMode = () => {
-      setIsDarkMode(!isDarkMode);
-    }
-
+        setIsDarkMode(prevIsDarkMode => !prevIsDarkMode);
+        console.log(isDarkMode);
+      }
+      
     const icon = isDarkMode ? <MdNightlightRound/> : <MdWbSunny />;
   
     return (
@@ -39,6 +40,8 @@ export const NavBarComponent = () => {
               <NavItems label="Pedales" to="/Pedales" />
               <NavItems label="Audio" to="/Audio" />
               <Button variant="dark" onClick={toggleDarkMode}>{icon}</Button>
+
+
             </ul>
           </nav>
         </div>
