@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { ThemeContext } from '../../context';
 import { Link } from 'react-router-dom';
 import styles from "./NavBarStyles.module.css";
@@ -18,6 +18,15 @@ export const NavBarComponent = () => {
         console.log(isDarkMode);
       }
       
+      useEffect(() => {
+        const body = document.body;
+        if (isDarkMode) {
+          body.classList.add('dark-mode');
+        } else {
+          body.classList.remove('dark-mode');
+        }
+      }, [isDarkMode]);
+
     const icon = isDarkMode ? <MdNightlightRound/> : <MdWbSunny />;
   
     return (
@@ -29,7 +38,7 @@ export const NavBarComponent = () => {
           <SearchBar/>
           <CartIcon/>
         </div>
-        <div className={styles.options}>
+        <div className={`${styles.options} ${isDarkMode ? styles.darkModeOptions : ''}`}>
           <nav>
             <ul>
               <NavItems label="Home" to="/" />
@@ -40,8 +49,6 @@ export const NavBarComponent = () => {
               <NavItems label="Pedales" to="/Pedales" />
               <NavItems label="Audio" to="/Audio" />
               <Button variant="dark" onClick={toggleDarkMode}>{icon}</Button>
-
-
             </ul>
           </nav>
         </div>

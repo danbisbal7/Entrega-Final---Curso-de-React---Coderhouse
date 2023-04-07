@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode h1 {
+  color: white;
+}
+
+
+

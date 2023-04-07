@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 header {
     display: grid;
     grid-template-rows: 65% 25%;
@@ -116,7 +118,7 @@ header h1 {
     font-weight: bold;
 }
 
-.dark-mode {
-  background-color: black;
-  color: white;
-}
+.darkModeOptions {
+    background-color: #333;
+    color: #fff;
+  }
