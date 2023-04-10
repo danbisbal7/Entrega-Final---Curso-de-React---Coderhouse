@@ -48,7 +48,7 @@ export const NavBarComponent = () => {
               <NavItems label="Amplificadores" to="/Amplificadores" />
               <NavItems label="Pedales" to="/Pedales" />
               <NavItems label="Audio" to="/Audio" />
-              <Button variant="dark" onClick={toggleDarkMode}>{icon}</Button>
+              <Button variant="dark" onClick={toggleDarkMode} className="darkModeButton">{icon}</Button>
             </ul>
           </nav>
         </div>

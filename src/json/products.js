@@ -27,24 +27,24 @@ export const ProductsData = [
       "id": 4,
       "categoria": "Bajos",
       "nombre": "Bajo Gibson Thunderbird",
-      "precio": 10.99,
-      "descripcion": "Descripción del producto 4",
+      "precio": 2299,
+      "descripcion": "El Gibson Thunderbird tiene el diseño clásico de cuerpo inverso y clavijero que se introdujo originalmente en 1963 como el primer diseño de bajo de cuello a cuerpo de Gibson. El tradicional mástil de caoba/nogal de 9 capas a través de la construcción del cuerpo proporciona una respuesta atronadora de gama baja y un sostenido similar al de un piano. El ancho de tuerca estrecho y el perfil de cuello redondeado se sienten rápidos e intuitivos",
       "imagen": "../images/gibson-thunderbird-bass.jpg"
     },
     {
       "id": 5,
       "categoria": "Bajos",
-      "nombre": "Bajo Fender Jazz Bass",
-      "precio": 19.99,
-      "descripcion": "Descripción del producto 5",
+      "nombre": "Bajo Fender Player Jazz Bass",
+      "precio": 2145,
+      "descripcion": "El Player Jazz Bass es un instrumento inspirador con un estilo clásico, superior y un auténtico tono de bajo Fender. Es poderoso, el sonido retumbante es fuerte y notorio; un gruñido que combina con una sensación de comodidad para una inyección de inspiración creativa. Listo para la acción en el estudio o en el escenario, con el Player Jazz Bass puedes tocar todo lo que se te ocurra",
       "imagen": "../images/fender-jazz-bass.jpg"
     },
     {
       "id": 6,
       "categoria": "Bajos",
-      "nombre": "Bajo Jackson JS3",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 6",
+      "nombre": "Bajo Jackson JS2 Concert",
+      "precio": 535,
+      "descripcion": "Destreza para diestros: el Concert de la serie JS de Jackson es un bajo de 4 cuerdas adecuado para diestros. Cuerpo y cuello: la escala de 34 pulgadas, el bajo de concierto de cuatro cuerdas JS2 cuenta con un cuerpo de álamo ligero y resonante, cuello de arce atornillado con refuerzo de grafito y junta de bufanda",
       "imagen": "../images/jackson-js3-bass.jpg"
     },
     {

@@ -121,4 +121,14 @@ header h1 {
 .darkModeOptions {
     background-color: #333;
     color: #fff;
+    border-color: #BA181B;
+    border-style: solid;
   }
+
+  ul button {
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    width: 40px;
+  }
+  
