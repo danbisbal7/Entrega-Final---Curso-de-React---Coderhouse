@@ -2,25 +2,25 @@ export const ProductsData = [
     {
       "id": 1,
       "categoria": "Guitarras",
-      "nombre": "Guitarra Gibson Les Paul",
-      "precio": 10.99,
-      "descripcion": "Descripción del producto 1",
-      "imagen": "../images/gibson-les-paul.jpg"
+      "nombre": "Guitarra Gibson Les Paul Slash Victoria Standard",
+      "precio": 3199,
+      "descripcion": "Gibson y Slash se enorgullecen de presentar la Colección Slash. Representa guitarras Gibson influyentes que Slash ha usado durante su carrera, inspirando a múltiples generaciones de guitarristas en todo el mundo. La colección Slash de guitarras Gibson se puede ver en vivo en el escenario con Slash hoy",
+      "imagen": "../images/gibson-les-paul-gold.jpg"
     },
     {
       "id": 2,
       "categoria": "Guitarras",
-      "nombre": "Guitarra Fender Stratocaster",
-      "precio": 19.99,
-      "descripcion": "Descripción del producto 2",
+      "nombre": "Guitarra Fender American Ultra Strat",
+      "precio": 2199,
+      "descripcion": "La serie American Ultra de guitarras y bajos es la más avanzada para músicos exigentes que exigen lo último en precisión, rendimiento y tono. La American Ultra Stratocaster presenta un exclusivo perfil de mástil de D moderna con bordes de diapasón redondeados para horas de comodidad, y la forma del talón del mástil permite un fácil acceso al registro más alto",
       "imagen": "../images/fender-stratocaster.jpg"
     },
     {
       "id": 3,
       "categoria": "Guitarras",
-      "nombre": "Guitarra Jackson Flying V",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 3",
+      "nombre": "Guitarra Jackson X Series KING V™ KVXMG",
+      "precio": 799,
+      "descripcion": "La Jackson X Series King V™ KVXMG tiene un cuerpo de álamo, un mástil de arce de cuerpo entero y un diapasón de laurel de radio compuesto de 12-16 que se curva más dramáticamente en la cejuela para facilitar el acorde y se aplana a medida que se acerca a la unión del mástil para curvas de baja acción sin preocuparse.",
       "imagen": "../images/jackson-flying-v.jpg"
     },
     {
@@ -50,41 +50,41 @@ export const ProductsData = [
     {
       "id": 7,
       "categoria": "Percusion",
-      "nombre": "Bateria Pearl Roadshow",
-      "precio": 10.99,
-      "descripcion": "Descripción del producto 7",
+      "nombre": "Bateria Pearl Roadshow Fusion Spa",
+      "precio": 625,
+      "descripcion": "Experimente los elementos que hacen que los juegos de percusión Roadshow de Pearl sean el vehículo perfecto para su viaje rítmico. En esencia, la carcasa de álamo blanco asiático de Roadshow ofrece un tono potente y contundente que es perfecto para el estudiante o el baterista recién iniciado",
       "imagen": "../images/pearl-roadshow.jpg"
     },
     {
       "id": 8,
       "categoria": "Percusion",
       "nombre": "Bateria Tama Imperialstar",
-      "precio": 19.99,
-      "descripcion": "Descripción del producto 8",
+      "precio": 1089,
+      "descripcion": "Tama lleva desde la década de los 70 del pasado siglo construyendo baterías y por esto sabe lo que los bateristas realmente quieren y ha diseñado un set asequible en precio pero duradero, resistente y que tiene muchas de las características de gama alta que encontrarás en las series Superstar y Starclassic. Cada aspecto de la batería ha sido exhaustivamente examinado y luego mejorado antes de lanzarlo al mercado.",
       "imagen": "../images/tama-imperialstar.jpg"
     },
     {
       "id": 9,
       "categoria": "Percusion",
       "nombre": "Bateria Yamaha GigMaker",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 9",
+      "precio": 1100,
+      "descripcion": "Los kits de iniciación Gigmaker están disponibles en dos configuraciones básicas y en una gama de colores glitter realmente sorprendentes, para que escojas al vuelo tu estilo y tu imagen. No hay otro set de batería del mercado que te ofrezca tanto por tan poco: la mejor tecnología aplicada a la fabricación de baterías se une con la experiencia Yamaha",
       "imagen": "../images/yamaha-gigmaker.jpg"
     },
     {
       "id": 10,
       "categoria": "Amplificadores",
-      "nombre": "Amplificador Marshall",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 10",
+      "nombre": "Amplificador Marshall DSL40C",
+      "precio": 1145,
+      "descripcion": "La versátil serie DSL ™  ofrece el legendario tono Marshall de todas las válvulas adecuado para todos los entornos de juego. Desde limpios brillantes hasta overdrives distorsionados con garra, el DSL le permite adaptar fácilmente el sonido a sus estilos de interpretación. DSL ofrece una amplia gama de funciones en toda la serie, incluida la reducción de potencia, la reverberación con calidad de estudio y dos canales conmutables por pedal.",
       "imagen": "../images/amplificador-marshall.jpg"
     },
     {
       "id": 11,
       "categoria": "Amplificadores",
-      "nombre": "Amplificador Orange",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 11",
+      "nombre": "Amplificador Orange Crush 35RT",
+      "precio": 299,
+      "descripcion": "El Crush 35RT es el modelo más grande y con más funciones de la gama Crush. Nuestro nuevo preamplificador de alta ganancia de dos canales acoplado a una etapa de salida más robusta de 35 vatios y un altavoz Voice of the World de 10″ produce resultados asombrosos, brindando aún mayor impacto, presencia y volumen.",
       "imagen": "../images/amplificador-orange.jpg"
     },
     {
