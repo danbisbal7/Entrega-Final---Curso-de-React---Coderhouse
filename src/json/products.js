@@ -239,4 +239,52 @@ export const ProductsData = [
       "descripcion": "El LV300 y LV300Twin son dos amplificadores combo de 120 W de tres canales y abiertos. Incorporan auténtico sonido de tubo; un ecualizador de tres bandas para los canales de saturación y limpio (Drive 1 + 2); conmutador de canal limpio; alcance ‘V’ específico del canal de saturación y botón ‘VTS’ que ofrece mayores posibilidades de ajuste tonal. El efecto de reverberación incorporado cuenta con controles de nivel independientes para los canales limpio y de saturación y se controla mediante un pedal de tres canales incorporado. También cuenta con un conector ",
       "imagen": "../images/laney-amp.jpg"
     },
+    {
+      "id": 31,
+      "categoria": "Pedales",
+      "nombre": "Pedal MXR Phase 90",
+      "precio": 99,
+      "descripcion": "Durante más de cuatro décadas, el MXR Phase 90 ha sido un pilar en el equipo de millones de músicos de todo el mundo. Esta pequeña caja naranja se convirtió en el único icono de su categoría de efectos, e innumerables riffs legendarios se han beneficiado de las cualidades sónicas de este pedal. No importa el género o el instrumento, el Phase 90 ha estado ahí a través de todo para agregar su voz claramente exuberante a la paleta de tonos de un músico.",
+      "imagen": "../images/pedal-mxr.jpg"
+    },
+    {
+      "id": 32,
+      "categoria": "Pedales",
+      "nombre": "Pedal ProCo Rat 2",
+      "precio": 99,
+      "descripcion": "El RAT2 será tu pedal de distorsión favorito para cada concierto, ya sea rock, blues, punk o jazz.   Este es el estándar con el que se miden todos los demás dispositivos de distorsión. Escuchado en miles de grabaciones, ha ayudado a definir el sonido de las bandas más influyentes de las últimas tres décadas.",
+      "imagen": "../images/pedal-rat.jpg"
+    },
+    {
+      "id": 33,
+      "categoria": "Pedales",
+      "nombre": "Pedal Electro-Harmonix Soul Food",
+      "precio": 102,
+      "descripcion": "El Soul Food entrega un overdrive transparente con gran respuesta y toque. Su circuitería presenta rieles de poder impulsados para dar headroom abundante y definición incrementada. Lo mejor de todo, no tienes que ser un rockstar para tener uno. Si buscas un boost limpio o saturacion estilo amp pesado, todo se logra sin agregar coloración. Soul Food fue construido para el guitarrista consciente del tono que necesita cortar a través de la mezcla sin alterar la voz de su instrumento.",
+      "imagen": "../images/pedal-electro-harmonix.jpg"
+    },
+    {
+      "id": 34,
+      "categoria": "Audio",
+      "nombre": "Micrófono Condensador AKG Lyra C44 USB",
+      "precio": 229,
+      "descripcion": "Inspirado visualmente en el clásico micrófono de condensador C414 de estudio, el AKG Lyra es un micrófono de condensador USB de múltiples patrones que ofrece audio de alta definición, gran versatilidad y excelente simplicidad mientras se mantiene elegante para las apariencias en pantalla. La conversión de 24 bits / 192 kHz, un amortiguador incorporado y la difusión interna producen una calidad sonora prístina para sus grabaciones, ya sea que esté creando contenido en línea, podcasting, vlogging, transmisión en vivo o produciendo música.",
+      "imagen": "../images/microfono-akg.jpg"
+    },
+    {
+      "id": 35,
+      "categoria": "Audio",
+      "nombre": "Consola Digital Behringer X AIR XR18",
+      "precio": 1149,
+      "descripcion": "El revolucionario XR18 es un potente mezclador portátil de entrada y bus 18 alojado en un diseño de caja de escenario extremadamente resistente para su uso con tabletas iPad y Android. Es ideal tanto para aplicaciones en vivo como en estudio, gracias a sus 16 galardonados preamplificadores de micrófono diseñados por Midas, su conveniente módulo Wifi integrado para el control inalámbrico y una interfaz de audio USB bidireccional ultrarrápida.",
+      "imagen": "../images/consola-behringer.jpg"
+    },
+    {
+      "id": 36,
+      "categoria": "Audio",
+      "nombre": "Caja Acústica Activa JBL PRX 815W",
+      "precio": 1799,
+      "descripcion": "El JBL PRX 815W es un altavoz autoamplificado con woofer de 15 pulgadas y 1500W de potencia, ofreciendo un SPL máximo de 137 dB. Gracias a su amplificador digital y a su dsp avanzado puedes ajustar el equipo a la perfección, controlando además los ajustes de ecualización mediante WiFi y la aplicación.",
+      "imagen": "../images/caja-jbl.jpg"
+    },
   ]
