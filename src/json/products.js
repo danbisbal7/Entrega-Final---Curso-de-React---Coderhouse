@@ -26,7 +26,7 @@ export const ProductsData = [
     {
       "id": 4,
       "categoria": "Bajos",
-      "nombre": "Bajo Gibson Thunderbird",
+      "nombre": "Bajo Gibson Thunderbird White",
       "precio": 2299,
       "descripcion": "El Gibson Thunderbird tiene el diseño clásico de cuerpo inverso y clavijero que se introdujo originalmente en 1963 como el primer diseño de bajo de cuello a cuerpo de Gibson. El tradicional mástil de caoba/nogal de 9 capas a través de la construcción del cuerpo proporciona una respuesta atronadora de gama baja y un sostenido similar al de un piano. El ancho de tuerca estrecho y el perfil de cuello redondeado se sienten rápidos e intuitivos",
       "imagen": "../images/gibson-thunderbird-bass.jpg"
@@ -90,65 +90,105 @@ export const ProductsData = [
     {
       "id": 12,
       "categoria": "Amplificadores",
-      "nombre": "Amplificador Fender",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 12",
+      "nombre": "Amplificador Fender 65 Deluxe Reverb",
+      "precio": 1599,
+      "descripcion": "Empleado durante décadas en la grabación de innumerables éxitos, el Deluxe Reverb de mediados años 60 es un clásico Fender atemporal, y uno de los amplificadores de guitarra para uso diario fabricados más indispensable. De potencia moderada y sonido de gran plenitud, timbre cristalino con destacable chasquido de agudos, el Deluxe Reverb es una máquina imprescindible de sonido. ",
       "imagen": "../images/amplificador-fender.jpg"
     },
     {
       "id": 13,
       "categoria": "Pedales",
-      "nombre": "Pedal Boss DS-1",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 13",
+      "nombre": "Pedal Boss DS-1 Distortion",
+      "precio": 110,
+      "descripcion": "El DS-1 Distortion es un auténtico icono en el mundo de los efectos de guitarra. Presentado en 1978, el primer pedal de distorsión de BOSS definió un sonido nuevo y atrevido, con un ataque agresivo y un sustain fluido que ha enganchado a generaciones de músicos. El DS-1 es el pedal compacto BOSS más vendido de todos los tiempos, y su diseño original e inmutable sigue inspirando la creación de música fantástica en todo el mundo.",
       "imagen": "../images/pedal-boss.jpg"
     },
     {
       "id": 14,
       "categoria": "Pedales",
-      "nombre": "Pedal Dunlop Crybaby",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 14",
+      "nombre": "Pedal Dunlop Crybaby Standard Wah",
+      "precio": 181,
+      "descripcion": "Este Cry Baby Wah cuenta con el legendario inductor Fasel®, un enfoque de gama alta y un sonido wah agresivo. El Cry Baby Wah es el efecto de guitarra más icónico de la historia de la música. Cuando llegó a la escena en 1966, agregó una nueva capa de expresión a la guitarra eléctrica: jugadores como Jimi Hendrix y Eric Clapton usaron el Cry Baby Wah para crear algunos de los sonidos más atemporales del rock.",
       "imagen": "../images/pedal-dunlop.jpg"
     },
     {
       "id": 15,
       "categoria": "Pedales",
-      "nombre": "Pedal Ibanez Tubescreamer",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 15",
+      "nombre": "Pedal Ibanez TS9 Tube Screamer",
+      "precio": 146,
+      "descripcion": "El Ibanez TS9 Tube Screamer es una reedición que es igual a la original en muchos sentidos. La misma carcasa, la misma pintura verde identificable al instante y la misma sobremarcha que lo convierte en uno de los clásicos de todos los tiempos en efectos de guitarra. Así que, conéctalo, encántalo y escucharás de qué se trata todo el alboroto.",
       "imagen": "../images/pedal-ibanez.jpg"
     },
     {
       "id": 16,
       "categoria": "Audio",
-      "nombre": "Microfono Shure",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 16",
+      "nombre": "Micrófono Shure SM SM58-LC",
+      "precio": 179,
+      "descripcion": "Si alguna vez has oído a alguien cantar o hablar en directo con un micrófono, es muy posible que fuera un SM58. Estrellas del rock. Ídolos del pop. Humoristas. Presidentes. Papas. Durante generaciones, ha capturado algunas de las palabras más legendarias. Y gracias a su tecnología y durabilidad, que son el estándar mundial, seguirá apareciendo en momentos históricos.",
       "imagen": "../images/microfono-shure.jpg"
     },
     {
       "id": 17,
       "categoria": "Audio",
-      "nombre": "Parlante Peavey",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 17",
+      "nombre": "Speaker Peavey PBK-15FM",
+      "precio": 288,
+      "descripcion": "El Peavey PBK 15FM es un sistema de refuerzo de sonido bidireccional basado en un woofer de 15 de alta resistencia y un controlador de compresión dinámica de diafragma de titanio 14Ti montado en una bocina de cobertura media. Su aspecto elegante y moderno, junto con un excelente rendimiento, ofrecen un paquete excepcional para una variedad de aplicaciones, como refuerzo de sonido, oratoria, sistemas de relleno lateral, karaoke o reproducción musical.",
       "imagen": "../images/parlante-peavey.jpg"
     },
     {
       "id": 18,
       "categoria": "Audio",
-      "nombre": "Consola Pyle",
-      "precio": 5.99,
-      "descripcion": "Descripción del producto 18",
+      "nombre": "Audio Mixer Pyle PMX848BT",
+      "precio": 116,
+      "descripcion": "El mezclador de audio Pyle PMXU88BT se ofrece con controles fáciles de usar y características innovadoras que son muy útiles para un músico completo. El dispositivo es perfecto para la grabación sobre la marcha, así como para mezclar profesionales. Contiene perillas y botones para entrada y salida, lo que hace que sea extremadamente conveniente para un principiante completo operar este instrumento.",
       "imagen": "../images/consola-pyle.jpg"
     },
     {
       "id": 19,
-      "categoria": "Audio",
-      "nombre": "Prueba",
-      "precio": 5.99,
-      "descripcion": "Producto de prueba",
-      "imagen": "../images/consola-pyle.jpg"
+      "categoria": "Guitarras",
+      "nombre": "Guitarra Fender Player Telecaster",
+      "precio": 1399,
+      "descripcion": "Audaz, innovadora y resistente, la Player Telecaster es una auténtica Fender, de principio a fin. La sensación, el estilo y, lo más importante, el sonido: lo tiene todo, esperando que la utilices para hacer tu música. Lo suficientemente versátil para casi cualquier cosa que puedas crear y lo suficientemente resistente como para sobrevivir a cualquier concierto, esta herramienta musical es una fiel compañera en tu viaje musical.",
+      "imagen": "../images/fender-telecaster.jpg"
+    },
+    {
+      "id": 20,
+      "categoria": "Guitarras",
+      "nombre": "Guitarra Gibson SG Standard Heritage Cherry",
+      "precio": 1799,
+      "descripcion": "La Gibson SG Standard luce el aspecto y las características clásicas asociadas con los modelos SG de estilo de finales de los años 60, buscados por muchos. Un mástil de caoba de perfil redondeado, un diapasón de palisandro encuadernado, una larga articulación del mástil 19o y un sólido cuerpo de caoba proporcionan la columna vertebral para el sustain del canto.",
+      "imagen": "../images/gibson-sg.jpg"
+    },
+    {
+      "id": 21,
+      "categoria": "Guitarras",
+      "nombre": "Guitarra PRS Modern Eagle V",
+      "precio": 1865,
+      "descripcion": "El Modern Eagle V es un instrumento innovador que ofrece tonos altamente musicales tanto para grabar como para tocar en vivo. Utilizando un diseño de pastilla de zumbido/single/hum (cinco bobinas) y una configuración electrónica única, la Modern Eagle V ofrece a los músicos una amplia gama de tonos en una sola guitarra.",
+      "imagen": "../images/prs-modern-eagle.jpg"
+    },
+    {
+      "id": 22,
+      "categoria": "Bajos",
+      "nombre": "Bajo Warwick RockBass Corvette Basic",
+      "precio": 1210,
+      "descripcion": "Comienza tu vibrante y palpitante carrera de bajo en otra nota con el Warwick RockBass Corvette Basic Bass Guitar. Con los años de experiencia de Warwick en la elaboración de bajos de alta calidad, probados en giras y gruñidos, el Corvette Basic trae honor a la línea de la familia RockBass con estas mismas características en masa.",
+      "imagen": "../images/warwick-bass.jpg"
+    },
+    {
+      "id": 23,
+      "categoria": "Bajos",
+      "nombre": "Bajo Rickenbacker 4003 Stereo",
+      "precio": 2399,
+      "descripcion": "El Rickenbacker 4003 Bass se basa en el icónico bajo 4001, que aporta toda esa riqueza distintiva de graves y agudos cantados que hicieron tan famoso al original. Bajistas tan legendarios como Phil Lynott de Thin Lizzy, Chris Squire de Yes', John Entwistle de The Who John, e incluso Paul McCartney de The Beatles lo han usado para manejar sus distintivas líneas de bajo.",
+      "imagen": "../images/rickenbacker-bass.jpg"
+    },
+    {
+      "id": 24,
+      "categoria": "Bajos",
+      "nombre": "Bajo Electrico Ibanez SR500-BM",
+      "precio": 599,
+      "descripcion": "Con el Ibanez SR500-BM, Ibanez presenta un digno sucesor del Soundgear Bass original de 1987, con un acabado Brown Mahogany. Basado en el legendario diseño con un cuerpo de caoba y el mástil de jatoba/bubinga atornillado que garantizan máxima comodidad al tocar, y unas pastillas Bartolini con electrónica activa de 3 bandas, ofreciendo sonidos versátiles para cualquier género musical.",
+      "imagen": "../images/ibanez-sr500.jpg"
     },
   ]
