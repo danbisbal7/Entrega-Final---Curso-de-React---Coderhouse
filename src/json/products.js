@@ -191,4 +191,52 @@ export const ProductsData = [
       "descripcion": "Con el Ibanez SR500-BM, Ibanez presenta un digno sucesor del Soundgear Bass original de 1987, con un acabado Brown Mahogany. Basado en el legendario diseño con un cuerpo de caoba y el mástil de jatoba/bubinga atornillado que garantizan máxima comodidad al tocar, y unas pastillas Bartolini con electrónica activa de 3 bandas, ofreciendo sonidos versátiles para cualquier género musical.",
       "imagen": "../images/ibanez-sr500.jpg"
     },
+    {
+      "id": 25,
+      "categoria": "Percusion",
+      "nombre": "Bateria Gretsch Catalina Maple CM1-E605-WG",
+      "precio": 1055,
+      "descripcion": "Desde sus diseños de hardware elegantes e innovadores y su legendaria carcasa de fórmula Gretsch, Catalina Maple es una de las favoritas entre los músicos que desean una batería Gretsch con un sonido excelente, una experiencia de interpretación ergonómicamente satisfactoria y un aspecto fresco y contemporáneo. El hardware de montaje de Catalina Maple incluye una placa de montaje de bombo de tapa de gasolina redonda y un sistema de montaje GTS de perfil ultra bajo.",
+      "imagen": "../images/gretsch-drums.jpg"
+    },
+    {
+      "id": 26,
+      "categoria": "Percusion",
+      "nombre": "Bateria Ludwig Element Evolution LE622010",
+      "precio": 1199,
+      "descripcion": "Diseñado como un conjunto de batería intermedio, el Ludwig Element Evolution es todo lo que un aspirante a baterista necesita para sobresalir. El conjunto de la serie Evolution viene con hardware de doble refuerzo, parches de tambor Remo Pinstripe y platillos Zildjian * para que sea ideal para bateristas de cualquier edad que estén listos para dar el siguiente paso.",
+      "imagen": "../images/ludwig-drums.jpg"
+    },
+    {
+      "id": 27,
+      "categoria": "Percusion",
+      "nombre": "Bateria DW Design Series",
+      "precio": 2545,
+      "descripcion": "Construido con una calidad increíble de DW, el paquete de carcasa marina azul profundo de 5 piezas de DW Design es el kit de batería ideal para actuar en el escenario o en el estudio. Con un sonido contundente y la respuesta perfecta para varios estilos de percusión, esta colección de baterías lleva tu interpretación al siguiente nivel. Diseñado con una durabilidad duradera, este conjunto de batería proporcionará continuamente una apariencia y un sonido confiables durante los próximos años.",
+      "imagen": "../images/dw-drums.jpg"
+    },
+    {
+      "id": 28,
+      "categoria": "Amplificadores",
+      "nombre": "Amplificador Line 6 Spider Jam 75W",
+      "precio": 399,
+      "descripcion": "Spider Jam te ofrece cientos de sorprendentes tonos de guitarra, bucles intuitivos de sonido sobre sonido y la mejor banda del mundo al alcance de tu mano. Elija entre modelos de amplificadores clásicos de Line 6 y efectos de alta calidad para crear sus propios tonos originales. Marque grandes sonidos rápidamente con toneladas de preajustes basados ​​En artistas y canciones. Toca junto con pistas improvisadas y bucles de batería grabados por los mejores músicos de sesión.",
+      "imagen": "../images/line6-amp.jpg"
+    },
+    {
+      "id": 29,
+      "categoria": "Amplificadores",
+      "nombre": "Amplificador Blackstar ID:CORE Estéreo 150",
+      "precio": 399,
+      "descripcion": "Utilizando las tecnologías revolucionarias de la galardonada gama ID:Core de Blackstar, traen características completamente nuevas, como bucles infinitos y modulación de octava en un paquete liviano y de alto vataje, perfecto para el guitarrista de concierto. Con una funcionalidad de edición profunda a través del software Blackstar INSIDER y la opción de crear, cargar y descargar parches de otros usuarios a través de la sección de la comunidad.",
+      "imagen": "../images/blackstar-amp.jpg"
+    },
+    {
+      "id": 30,
+      "categoria": "Amplificadores",
+      "nombre": "Amplificador Laney LV300",
+      "precio": 587,
+      "descripcion": "El LV300 y LV300Twin son dos amplificadores combo de 120 W de tres canales y abiertos. Incorporan auténtico sonido de tubo; un ecualizador de tres bandas para los canales de saturación y limpio (Drive 1 + 2); conmutador de canal limpio; alcance ‘V’ específico del canal de saturación y botón ‘VTS’ que ofrece mayores posibilidades de ajuste tonal. El efecto de reverberación incorporado cuenta con controles de nivel independientes para los canales limpio y de saturación y se controla mediante un pedal de tres canales incorporado. También cuenta con un conector ",
+      "imagen": "../images/laney-amp.jpg"
+    },
   ]
