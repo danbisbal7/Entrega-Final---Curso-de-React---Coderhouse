@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Card, Button, Container, Row, Col  } from "react-bootstrap";
+import ItemCount from '../ItemCount/ItemCount';
 import { ProductsData } from '../../json';
 
 const ItemDetail = () => {
@@ -12,15 +13,11 @@ const ItemDetail = () => {
     setProducto(productoEncontrado);
   }, [id]);
 
+  const handleAdd = (count) => {
+    console.log(`Se agregarán ${count} unidades del producto ${producto.nombre}`);
+  };
+
   return (
-    /*<Card style={{ width: '75rem' }}>
-      <Card.Img variant="top" src={producto.imagen} />
-      <Card.Body>
-        <Card.Title>{producto.nombre}</Card.Title>
-        <Card.Text>{producto.descripcion}</Card.Text>
-        <Button variant="danger">Agregar al Carrito</Button>
-      </Card.Body>
-    </Card>*/
 
     <Container>
     <Row>
@@ -33,7 +30,7 @@ const ItemDetail = () => {
             <Card.Title>{producto.nombre}</Card.Title>
             <Card.Subtitle>USD ${producto.precio}</Card.Subtitle>
             <Card.Text>{producto.descripcion}</Card.Text>
-            <Button variant="danger">Agregar al Carrito</Button>
+            <ItemCount stock={10} initial={1} onAdd={handleAdd} />
           </Card.Body>
         </Card>
       </Col>

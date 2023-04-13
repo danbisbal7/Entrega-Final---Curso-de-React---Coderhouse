@@ -1,0 +1,21 @@
+.item-count-group {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .item-count-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .count-btn {
+    font-size: 18px;
+    width: 50px;
+  }
+  
+  
+
+  
