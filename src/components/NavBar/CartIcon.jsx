@@ -1,19 +1,16 @@
-import { useState } from 'react';
+import { useContext } from 'react';
+import { CartContext } from '../../context';
 import styles from "./NavBarStyles.module.css";
 import {FaShoppingCart} from "react-icons/fa";
 
 export const CartIcon = () => {
-    const [count, setCount] = useState(0);
+  const { itemCount } = useContext(CartContext); 
+  const count = itemCount.qtyItems; 
   
-    const handleClick = () => {
-
-      setCount(count + 1);
-    };
-  
-    return (
-        <div className={styles.cartIcon} onClick={handleClick}>
-          <FaShoppingCart />
-          <span className={styles.count}>{count > 0 ? count : 0}</span>
-        </div>
-      );
-    };
+  return (
+    <div className={styles.cartIcon}>
+      <FaShoppingCart />
+      <span className={styles.count}>{count > 0 ? count : 0}</span>
+    </div>
+  );
+};

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { ThemeContext, ThemeProvider } from './context';
+import { ThemeContext, ThemeProvider, CartProvider } from './context';
 import "./components/NavBar/NavBarComponents"
 import './App.module.css';
 import './index.css';
@@ -15,10 +15,10 @@ function App() {
 
   return (
     <ThemeProvider>
-      <div>
+      <CartProvider>
         <MainRoutes />
         <ItemListContainer/>
-      </div>
+      </CartProvider>
     </ThemeProvider>
   );
 }

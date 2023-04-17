@@ -1,9 +1,16 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import './ItemCount.css';
+import { CartContext } from '../../context';
+import { useParams } from 'react-router-dom';
 
 const ItemCount = ({ stock, initial, onAdd }) => {
   const [count, setCount] = useState(initial);
+  const [products, setProducts] = useState([]);
+
+  const {id} = useParams();
+
+  const { setItemCount } = useContext(CartContext);
 
   const handleIncrement = () => {
     if (count < stock) {
@@ -18,7 +25,20 @@ const ItemCount = ({ stock, initial, onAdd }) => {
   };
 
   const handleAdd = () => {
-    onAdd(count);
+    const existingProduct = products.find((p) => p.id === id);
+
+    if (existingProduct) {
+      existingProduct.qty += count;
+    } else {
+      const newProduct = {
+        id,
+        qty: count,
+      };
+      setItemCount((prevState) => ({
+        qtyItems: prevState.qtyItems + count,
+        products: [...prevState.products, newProduct],
+      }));
+    }
   };
 
   return (
