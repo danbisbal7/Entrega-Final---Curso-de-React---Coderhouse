@@ -69,6 +69,12 @@ header h1 {
   .cartIcon {
     padding: 2rem;
     font-size: 3rem;
+    color: #BA181B;
+  }
+
+  
+  .cartIcon:hover {
+    color: rgb(254, 77, 77);
   }
 
   .count {

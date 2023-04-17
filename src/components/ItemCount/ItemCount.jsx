@@ -41,6 +41,25 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     }
   };
 
+  /*const handleRemove = () => {
+    const existingProductIndex = products.findIndex((p) => p.id === id);
+    const existingProduct = products[existingProductIndex];
+  
+    if (existingProduct && existingProduct.qty > 0) {
+      existingProduct.qty -= 1;
+      setCount(existingProduct.qty);
+    }
+  
+    if (existingProduct && existingProduct.qty === 0) {
+      products.splice(existingProductIndex, 1);
+    }
+  
+    setItemCount((prevState) => ({
+      qtyItems: prevState.qtyItems - 1,
+      products: [...products],
+    }));
+  };*/
+
   return (
     <Form className="item-count-form">
       <Form.Group className="item-count-group">

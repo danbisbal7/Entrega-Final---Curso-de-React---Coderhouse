@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import { NavBarComponent } from "../components"
-import { Home, Guitarras, Bajos, Audio, Amplificadores, Pedales, Percusion } from "../pages"
+import { Home, Guitarras, Bajos, Audio, Amplificadores, Pedales, Percusion, Cart } from "../pages"
 import { ItemDetailContainer } from "../components"
 
 
@@ -19,6 +19,7 @@ export const MainRoutes = () => {
                 <Route exact path="/Pedales"  element={<Pedales />} />
                 <Route exact path="/Percusion"  element={<Percusion />} />
                 <Route exact path="/item/:id" element={<ItemDetailContainer />} />
+                <Route exact path="/Carrito" element={<Cart />} />
             </Routes>
         </Router>
     )
