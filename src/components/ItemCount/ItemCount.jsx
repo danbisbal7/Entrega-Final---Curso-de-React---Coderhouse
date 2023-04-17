@@ -10,7 +10,7 @@ const ItemCount = ({ stock, initial, onAdd }) => {
 
   const {id} = useParams();
 
-  const { setItemCount } = useContext(CartContext);
+  const { itemCount, setItemCount } = useContext(CartContext);
 
   const handleIncrement = () => {
     if (count < stock) {
@@ -25,19 +25,25 @@ const ItemCount = ({ stock, initial, onAdd }) => {
   };
 
   const handleAdd = () => {
-    const existingProduct = products.find((p) => p.id === id);
+    const existingProductIndex = itemCount.products.findIndex((p) => p.id === id);
+    const existingProduct = itemCount.products[existingProductIndex];
 
     if (existingProduct) {
       existingProduct.qty += count;
+      setItemCount({
+        ...itemCount,
+        qtyItems: itemCount.qtyItems + count
+      });
     } else {
       const newProduct = {
         id,
         qty: count,
       };
-      setItemCount((prevState) => ({
-        qtyItems: prevState.qtyItems + count,
-        products: [...prevState.products, newProduct],
-      }));
+      setItemCount({
+        ...itemCount,
+        qtyItems: itemCount.qtyItems + count,
+        products: [...itemCount.products, newProduct],
+      });
     }
   };
 
