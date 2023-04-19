@@ -1,20 +1,10 @@
 import { useEffect, useState } from 'react';
-import { ProductsData } from '../../json';
 import { ItemList } from './ItemList';
 import styles from "./ItemListContainer.css"
 import { getFirestore, collection, getDocs } from "firebase/firestore"
 
 export function ItemListContainer({ category }) {
   const [items, setItems] = useState([]);
-
- /* useEffect(() => {
-    if (category === '') {
-      setItems(ProductsData);
-    } else {
-      const filteredProducts = ProductsData.filter((product) => product.categoria === category);
-      setItems(filteredProducts);
-    }
-  }, [category]);*/
 
   useEffect(() => {
     const db = getFirestore();

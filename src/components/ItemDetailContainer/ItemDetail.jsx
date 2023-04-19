@@ -1,29 +1,28 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { Card, Button, Container, Row, Col  } from "react-bootstrap";
+import { Card, Container, Row, Col  } from "react-bootstrap";
 import ItemCount from '../ItemCount/ItemCount';
-import { ProductsData } from '../../json';
-import { getFirestore, collection, query, where, getDocs } from "firebase/firestore";
+import { getFirestore, doc, getDoc } from "firebase/firestore";
 
 const ItemDetail = () => {
   const { id } = useParams(); 
   const [producto, setProducto] = useState({});
 
-  /*useEffect(() => {
-    const productoEncontrado = ProductsData.find((prod) => prod.id == id); 
-    setProducto(productoEncontrado);
-  }, [id]);*/
-
   useEffect(() => {
     const db = getFirestore();
-    const productosRef = collection(db, 'products');
-    const productoQuery = query(productosRef, where('id', '==', id));
-    getDocs(productoQuery).then((querySnapshot) => {
-      querySnapshot.forEach((doc) => {
-        const productoEncontrado = doc.data();
-        setProducto(productoEncontrado);
+    const productoRef = doc(db, 'products', id);
+
+    getDoc(productoRef)
+      .then((doc) => {
+        if (doc.exists()) {
+          setProducto({ id: doc.id, ...doc.data() });
+        } else {
+          console.log("No existe el documento");
+        }
+      })
+      .catch((error) => {
+        console.log("Error: ", error);
       });
-    });
   }, [id]);
 
   const handleAdd = (count) => {
