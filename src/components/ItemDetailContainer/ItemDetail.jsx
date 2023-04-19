@@ -3,14 +3,27 @@ import { useParams } from 'react-router-dom';
 import { Card, Button, Container, Row, Col  } from "react-bootstrap";
 import ItemCount from '../ItemCount/ItemCount';
 import { ProductsData } from '../../json';
+import { getFirestore, collection, query, where, getDocs } from "firebase/firestore";
 
 const ItemDetail = () => {
   const { id } = useParams(); 
   const [producto, setProducto] = useState({});
 
-  useEffect(() => {
+  /*useEffect(() => {
     const productoEncontrado = ProductsData.find((prod) => prod.id == id); 
     setProducto(productoEncontrado);
+  }, [id]);*/
+
+  useEffect(() => {
+    const db = getFirestore();
+    const productosRef = collection(db, 'products');
+    const productoQuery = query(productosRef, where('id', '==', id));
+    getDocs(productoQuery).then((querySnapshot) => {
+      querySnapshot.forEach((doc) => {
+        const productoEncontrado = doc.data();
+        setProducto(productoEncontrado);
+      });
+    });
   }, [id]);
 
   const handleAdd = (count) => {

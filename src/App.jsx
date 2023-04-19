@@ -17,7 +17,6 @@ function App() {
     <ThemeProvider>
       <CartProvider>
         <MainRoutes />
-        <ItemListContainer/>
       </CartProvider>
     </ThemeProvider>
   );
