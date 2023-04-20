@@ -3,4 +3,20 @@
     padding: 2rem;
 }
 
+li {
+    padding: 10px;    
+}
 
+
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .cart-item {
+    margin-bottom: 5px;
+  }
+  
+  .cart-total {
+    font-weight: bold;
+  }
