@@ -4,9 +4,8 @@ import './ItemCount.css';
 import { CartContext } from '../../context';
 import { useParams } from 'react-router-dom';
 
-const ItemCount = ({ stock, initial, onAdd }) => {
+const ItemCount = ({ stock, initial, nombre, precio }) => {
   const [count, setCount] = useState(initial);
-  const [products, setProducts] = useState([]);
 
   const {id} = useParams();
 
@@ -37,6 +36,8 @@ const ItemCount = ({ stock, initial, onAdd }) => {
     } else {
       const newProduct = {
         id,
+        nombre,
+        precio,
         qty: count,
       };
       setItemCount({
@@ -46,25 +47,6 @@ const ItemCount = ({ stock, initial, onAdd }) => {
       });
     }
   };
-
-  /*const handleRemove = () => {
-    const existingProductIndex = products.findIndex((p) => p.id === id);
-    const existingProduct = products[existingProductIndex];
-  
-    if (existingProduct && existingProduct.qty > 0) {
-      existingProduct.qty -= 1;
-      setCount(existingProduct.qty);
-    }
-  
-    if (existingProduct && existingProduct.qty === 0) {
-      products.splice(existingProductIndex, 1);
-    }
-  
-    setItemCount((prevState) => ({
-      qtyItems: prevState.qtyItems - 1,
-      products: [...products],
-    }));
-  };*/
 
   return (
     <Form className="item-count-form">

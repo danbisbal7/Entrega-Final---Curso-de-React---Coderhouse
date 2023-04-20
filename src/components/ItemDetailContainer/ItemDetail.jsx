@@ -42,7 +42,7 @@ const ItemDetail = () => {
             <Card.Title>{producto.nombre}</Card.Title>
             <Card.Subtitle>USD ${producto.precio}</Card.Subtitle>
             <Card.Text>{producto.descripcion}</Card.Text>
-            <ItemCount stock={10} initial={1} onAdd={handleAdd} />
+            <ItemCount stock={10} initial={1} nombre={producto.nombre} precio={producto.precio} onAdd={handleAdd} />
           </Card.Body>
         </Card>
       </Col>
