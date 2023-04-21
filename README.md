@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# House Of The Guitar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Autor [Luis Bisbal]
 
-## Available Scripts
+House of The Guitar es un simulador de ecommerce basado en una tienda de musica
 
-In the project directory, you can run:
+## Instalación
 
-### `npm start`
+Instalacion de dependencias:npm i
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ejecucion local: npm start
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Uso
 
-### `npm test`
+Permite acceder por categorias a los productos, en el link del Home figuran todos los productos de la tienda y al seleccionar el link de cada categoria se muestran solo los de la categoria seleccionada, al seleccionar ver detalle muestra una descripcion y el precio de cada uno.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Se pueden ir agregando al carrito el cual se puede visualizar seleccionando el icono del cart, alli muestra un detalle de los productos seleccionados con precio y total
 
-### `npm run build`
+Cuenta con un boton para cambiar el tema de light a dark justo al lado del icono del cart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contacto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Cualquier pregunta relacionada al proyecto me puedes contactar al mail: bisbaldaniel@gmail.com
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Créditos
 
-### `npm run eject`
+Este proyecto emplea:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- React Bootstrap https://react-bootstrap.github.io/
+- React Icons https://react-icons.github.io/react-icons/
+- Firebase https://firebase.google.com/?hl=es
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Dirección local
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+http://localhost:3000/
