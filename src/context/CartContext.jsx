@@ -1,5 +1,7 @@
 import React, { createContext, useState } from 'react';
 
+// Se desarrolla la logica para agregar productos al carrito y que abarque toda la app
+
 export const CartContext = createContext();
 
 export const CartProvider = ({children}) => {

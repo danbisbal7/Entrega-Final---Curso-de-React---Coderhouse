@@ -8,6 +8,8 @@ export const CartIcon = () => {
   const { itemCount } = useContext(CartContext); 
   const count = itemCount.qtyItems; 
   
+// Al seleccionar este componente lleva a la pagina donde estan los elementos que se agregan al carrito
+
   return (
   <Link to="/Carrito" className={styles.cartIcon}>
     <FaShoppingCart />

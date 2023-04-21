@@ -3,6 +3,8 @@ import { ItemList } from './ItemList';
 import styles from "./ItemListContainer.css"
 import { getFirestore, collection, getDocs } from "firebase/firestore"
 
+// Este componente tiene todos los productos que se ofrecen en el ecommerce
+
 export function ItemListContainer({ category }) {
   const [items, setItems] = useState([]);
 

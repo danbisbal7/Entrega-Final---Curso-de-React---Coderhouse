@@ -10,6 +10,8 @@ import NavItems from "./NavItems";
 import { Button } from 'react-bootstrap';
 import { MdNightlightRound, MdWbSunny } from "react-icons/md";
 
+// Este componente representa todo lo que se muestra en el header, el titulo con enlace al home, el searchbar, el icono del cart y el boton de modo oscuro
+
 export const NavBarComponent = () => {
     const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
   

@@ -4,6 +4,8 @@ import { Card, Container, Row, Col  } from "react-bootstrap";
 import ItemCount from '../ItemCount/ItemCount';
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 
+// Muestra la descripcion detallada del producto trayendola desde Firestore
+
 const ItemDetail = () => {
   const { id } = useParams(); 
   const [producto, setProducto] = useState({});

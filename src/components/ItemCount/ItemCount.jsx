@@ -4,6 +4,8 @@ import './ItemCount.css';
 import { CartContext } from '../../context';
 import { useParams } from 'react-router-dom';
 
+// Aca se desarrolla la logica para agregar las cantodades a agregar en el cart
+
 const ItemCount = ({ stock, initial, nombre, precio }) => {
   const [count, setCount] = useState(initial);
 

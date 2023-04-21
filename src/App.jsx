@@ -7,6 +7,7 @@ import "./components/ItemDetailContainer"
 import { MainRoutes } from './routes';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// Se aplican los context y routes que envuelven a la app
 
 function App() {
 

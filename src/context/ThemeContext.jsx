@@ -1,5 +1,7 @@
 import React, {createContext, useState} from 'react';
 
+// Se desarrolla la logica para agregar el modo oscuro
+
 export const ThemeContext = createContext({
     isDarkMode: false,
     setIsDarkMode: () => {},

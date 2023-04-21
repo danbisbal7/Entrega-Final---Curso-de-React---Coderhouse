@@ -3,7 +3,7 @@ import { NavBarComponent } from "../components"
 import { Home, Guitarras, Bajos, Audio, Amplificadores, Pedales, Percusion, Cart } from "../pages"
 import { ItemDetailContainer } from "../components"
 
-
+// Codigo con todas las rutas a cada page en la app
 
 
 export const MainRoutes = () => {
