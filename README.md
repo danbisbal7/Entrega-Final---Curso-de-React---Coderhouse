@@ -6,7 +6,7 @@ House of The Guitar es un simulador de ecommerce basado en una tienda de musica
 
 ## Instalación
 
-Instalacion de dependencias:npm i
+Instalacion de dependencias: npm i
 
 Ejecucion local: npm start
 
