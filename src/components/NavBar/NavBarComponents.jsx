@@ -37,6 +37,7 @@ export const NavBarComponent = () => {
           </Link>
           <SearchBar/>
           <CartIcon/>
+          <Button variant="dark" onClick={toggleDarkMode} className="darkModeButton" style={{width: 40}}>{icon}</Button>
         </div>
         <div className={`${styles.options} ${isDarkMode ? styles.darkModeOptions : ''}`}>
           <nav>
@@ -48,7 +49,6 @@ export const NavBarComponent = () => {
               <NavItems label="Amplificadores" to="/Amplificadores" />
               <NavItems label="Pedales" to="/Pedales" />
               <NavItems label="Audio" to="/Audio" />
-              <Button variant="dark" onClick={toggleDarkMode} className="darkModeButton">{icon}</Button>
             </ul>
           </nav>
         </div>

@@ -27,7 +27,7 @@ header h1 {
 
 .title {
     display: grid;
-    grid-template-columns: 60% 30% 10%;
+    grid-template-columns: 60% 25% 9% 6%;
     align-items: center;
 }
 
@@ -79,8 +79,8 @@ header h1 {
 
   .count {
     position: absolute;
-    top: 18px;
-    right: 40px;
+    top: 25px;
+    right: 85px;
     background-color:#ffffff;
     color:black;
     border-radius: 50%;
@@ -130,11 +130,3 @@ header h1 {
     border-color: #BA181B;
     border-style: solid;
   }
-
-  ul button {
-    position: absolute;
-    top: 115px;
-    right: 3px;
-    width: 40px;
-  }
-  
